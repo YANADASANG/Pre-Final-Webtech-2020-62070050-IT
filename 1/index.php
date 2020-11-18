@@ -34,7 +34,7 @@
                     }
                     echo "Release date: ".$result->tracks->items[$i]->album->release_date."<br>";
                     echo "Available :".sizeof($result->tracks->items[$i]->available_markets)."contries";//ขายกี่ประเทศ
-                    echo "</div>";
+                    echo "</div></div>";
                 }
             ?>
             </div><!--col-->
@@ -52,7 +52,7 @@
                     }
                     echo "Release date: ".$result->tracks->items[$i]->album->release_date."<br>";
                     echo "Available :".sizeof($result->tracks->items[$i]->available_markets)."contries";//ขายกี่ประเทศ
-                    echo "</div>";
+                    echo "</div></div>";
                 }
             ?>
             </div><!--col-->
@@ -70,7 +70,7 @@
                     }
                     echo "Release date: ".$result->tracks->items[$i]->album->release_date."<br>";
                     echo "Available :".sizeof($result->tracks->items[$i]->available_markets)."contries";//ขายกี่ประเทศ
-                    echo "</div>";
+                    echo "</div></div>";
                 }
             ?>
             </div><!--col-->
@@ -88,7 +88,7 @@
                     }
                     echo "Release date: ".$result->tracks->items[$i]->album->release_date."<br>";
                     echo "Available :".sizeof($result->tracks->items[$i]->available_markets)."contries";//ขายกี่ประเทศ
-                    echo "</div>";
+                    echo "</div></div>";
                 }
             ?>
             </div><!--col-->
